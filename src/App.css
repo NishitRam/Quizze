@@ -1,6 +1,13 @@
-/* App.css - Additional app-wide styles if needed */
+/* Minimal App Styles */
 
-.app {
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
   width: 100%;
   min-height: 100vh;
 }
+
+/* Most styling is inline in components for better encapsulation */

@@ -1,17 +1,13 @@
-/* Quizzard - Global Styles */
+/* Global Reset and Base Styles */
 
-/* CRITICAL: Full Width Reset - Must be first! */
 html, body, #root {
   width: 100% !important;
-  height: 100% !important;
   margin: 0 !important;
   padding: 0 !important;
   overflow-x: hidden !important;
 }
 
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
 
@@ -20,15 +16,6 @@ body {
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-#root {
-  width: 100% !important;
-}
-
-.app {
-  width: 100% !important;
-  overflow-x: hidden;
 }
 
 code {
